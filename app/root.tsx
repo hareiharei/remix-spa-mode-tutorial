@@ -7,6 +7,8 @@ import {
 } from "@remix-run/react";
 import "./tailwind.css";
 
+import stylesheet from "./tailwind.css?url";
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
